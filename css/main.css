@@ -1,0 +1,139 @@
+body {
+	padding-top: 65px;
+	font-family: Georgia;
+	font-size: 16px;
+    background-color: #ddd;
+    margin: 0;
+    color: #fff;
+  
+}
+footer{
+    width: 100%;
+    background-color: #eee;
+    padding: 15px 0;
+    margin: 0;
+    min-height: 100%;
+}
+footer div ul>li{
+    display: inline;
+}
+footer .copyright{
+    color: #000;
+}
+.team-member{
+    text-align:center;
+    margin-bottom:50px
+}
+.team-member img{
+    margin:0 auto;
+    border:7px solid #fff;
+    box-shadow: 1px 1px 5px 3px #ccc;
+}
+.team-member h4{
+    margin-top:25px;
+    margin-bottom:0;
+    text-transform:none;
+}
+.team-member p{
+    margin-top:0;
+}
+ul.social-buttons{
+    margin-bottom:0
+}
+ul.social-buttons li a{
+    display:block;
+    height:40px;
+    width:40px;
+    border-radius:100%;
+    font-size:20px;
+    line-height:40px;
+    color:#fff;
+    outline:0;
+    -webkit-transition:all .3s;
+    -moz-transition:all .3s;
+    transition:all .3s}
+/*ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a:active{
+    background-color:#fed136
+}*/
+
+.twitter{
+    background-color: #55acee;
+}
+.twitter:hover{
+  background-color: #2196f3;
+}
+.facebook{
+    background-color: #4F67A4
+}
+.facebook:hover{
+  background-color: #3b5998;
+}
+.linkedin{
+    background-color: #1388C0;
+}
+.linkedin:hover{
+  background-color: #007bb6;
+}
+
+#jumbotron{
+    background:url(../images/img.jpg) center top no-repeat #178cb5;
+    color: #fff;
+    background-size: cover;
+}
+#jumbotron:before{
+    content: " ";
+    display: block;
+}
+.required{
+	color: red;
+}
+nav ul li{
+  border-right: 1px solid #ccc;
+}
+nav ul li:first-child{
+  border-left: 1px solid #ccc;
+}
+
+/*about styles*/
+#intro-header{
+    background-image: url('images/about.jpg');
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+
+/*contact styles*/
+.contact-body{
+    padding-top: 60px;
+    background-color: #ddd;
+    background-size:100% 100%;
+    font-family: 'Raleway', sans-serif;
+}
+#contact-panel {
+    background-image: url(../images/fbg.jpg);
+    padding: 40px 50px;
+    color: rgb(255, 255, 255);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 1.3em;
+}
+#contact-panel form label{
+    color: #000;
+}
+#contact-panel input, #contact-message,#send {
+    background-color: rgba(30, 0, 41, 0.57);
+    padding: 10px !important;
+    border: 1px solid rgba(30, 0, 41, 0);
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+#send:hover {
+    background-color: rgba(200, 0, 255, 0.99);
+    color: #000;
+}
+@media (max-width: 768px){
+    #contact-panel{
+        padding: 20px 10px;
+    }
+}
